@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: white ;
+font-size: 10px;
+font-family: "montserrat", sans-serif;
+line-height: 1px;
+margin: 7%;
+
+
+}
+.topbar{
+    background-color:white ;
+height: 90px;
+width: 100%;
+
+}
+.topbar .icon-menu a{
+float: left;
+opacity: 0.3; 
+}
+
+.topbar .icon-menu :hover {
+   opacity: 1;
+ }
+.topbar .icon-profil a{
+  float: right;
+opacity: 1;
+ }
+ 
+ .topbar .icon-profil :hover{
+opacity: 0.5;
+ }
+ .topbar .banniere{
+     height: 500px;
+     width: 100%;
+     background-color: white;
+    padding-top: 300px ;
+   
+ }
+ .banniere .titre{
+    font-size:4.25rem;
+    line-height: 1.1;
+    font-family:"cardo",serif;
+    margin: 0 0 16px 0;  
+ }
+ .flex{
+    display: flex;
+    justify-content:space-between;
+    height: 80px;
+   padding-top:400px ;
+     
+ }
+ .flex .title{
+    font-size:2rem;
+    line-height: 1;
+    font-family:"cardo",serif;
+    margin: 0 0 10px 0; 
+ }
+ 
+
+.adulte button[type=button] {
+    padding: 20px 30px;
+  display: inline-block;
+  margin: 8px 8px;
+ 
+  cursor: pointer;
+    color: white;
+text-decoration: none;
+margin-top: 40px;
+
+font-weight: 350px;
+line-height: 70px;
+padding-bottom: 15px;
+text-align: center;
+font-size: 30px;
+background-color: rgb(151, 14, 151);
+border: none  ; 
+border-radius: 35%;
+-moz-border-radius: 35%;
+-webkit-border-radius: 35%;
+-o-border-radius:35%;
+font-family:  "montserrat","times new roman",'Arial Narrow Bold', sans-serif;
+width: 200px;
+} 
+
+.enfant button[type=button] {
+    padding: 20px 30px;
+  display: inline-block;
+  margin: 6px 6px;
+ width: 200px;
+  cursor: pointer;
+    color: white;
+text-decoration: none;
+margin-top: 40px;
+font-weight: 250px;
+line-height: 70px;
+padding-bottom: 15px;
+text-align: center;
+font-size: 30px;
+background-color: lightgrey;
+border: none  ; 
+border-radius: 35%;
+
+-moz-border-radius: 35%;
+-webkit-border-radius: 35%;
+-o-border-radius:35%;
+font-family:  "montserrat","times new roman",'Arial Narrow Bold', sans-serif;
+}
+.flex-deux{
+    display: flex;
+    justify-content:space-between;
+    height: 800px;
+   padding-top: 300px;
+ 
+     
+}
+.flex-deux .covid{
+    background-color:  lightpink;
+    
+    border-radius: 15%;
+}
+
+.flex-deux .virus{
+    background-color:  rgb(151, 14, 151);
+   
+    border-radius: 15%;
+}
+
+.flex-deux .ft{
+    font-size:3rem;
+    line-height: 1.1;
+    font-family:"cardo",serif;
+     
+ 
+color: white;
+
+}
+.search .foot{
+    font-size:3.25rem;
+    line-height: 1.1;
+    font-family:"cardo",serif;
+     position: center;
+color: black;
+padding-top: 20px;
+}
+
+
+.foot-img img{
+    float: left;
+    width: 300px;
+    margin-right: 25px;
+
+}
+.foot-img2 img{
+    float: right;
+    width: 300px;
+    margin-right: 25px;
+}
+

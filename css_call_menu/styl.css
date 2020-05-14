@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: white ;
+font-size: 40px;
+font-family: "montserrat", sans-serif;
+line-height: 1.6px;
+margin: 7%;
+
+}
+.tete{
+        background-color:white ;
+    height: 90px;
+    width: 100%;
+    }
+    .tete .icone-stop a{
+    float: left;
+    opacity: 0.5; 
+    }
+    
+    .tete .icon-stop :hover {
+       opacity: 1;
+     }
+ .tete .ban{
+        height: 500px;
+        width: 100%;
+        background-color: white;
+       padding-top: 300px ;
+}
+.main{
+    float: left;
+width:100%;
+background-color: white;
+
+}
+.ban .titre{
+    font-size:4.25rem;
+    line-height: 1.1;
+    font-family:"cardo",serif;
+    margin: 0 0 16px 0;  
+ }
+ .article{
+    overflow: hidden;
+    margin: 50px 0;
+ }
+ .article-img{
+    float: left;
+    width: 150px;
+    margin-left: 0px;
+     
+}
+
+.article-img img{
+    width: 100%;
+    height: 100px;
+}
+
+.article-title{
+    font-size:2.25rem;
+    line-height: 1.1;
+    font-family:"cardo",serif;
+    margin: 0 0 5px 0;
+
+    
+}
+.article-title a{
+    color: inherit;
+    text-decoration: none;
+}
+.article-title a:hover{
+text-decoration: underline;
+}
